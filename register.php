@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
 <body>
     <div class="form">
         <form action="" method="post">
-            <h2>Registration</h2>
+            <h2>Sign Up</h2>
             <p class="msg"><?= $msg?></p>
             <div class="form-group">
                 <input type="text" name="name" placeholder="Enter your name" class="form-control" require>
@@ -53,7 +53,7 @@ if(isset($_POST['submit'])){
             <div class="form-group">
                 <input type="password" name="cpassword" placeholder="Confirm your password" class="form-control" require>
             </div>
-            <button class="btn font-weight-bold" name="submit">Register Now</button>
+            <button class="btn font-weight-bold" name="submit">Sign Up now</button>
             <p>Already have an Account? <a href="login.php">Login Now</a></p>
         </form>
     </div>

@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
 <body>
     <div class="form">
         <form action="" method="post">
-            <h2>Registration</h2>
+            <h2>Login</h2>
             <p class="msg"></p>
             <div class="form-group">
                 <input type="email" name="email" placeholder="Enter your email" class="form-control" require>
@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
                 <input type="password" name="password" placeholder="Enter your password" class="form-control" require>
             </div>
             <button class="btn font-weight-bold" name="submit">Login Now</button>
-            <p>Don't have an Account? <a href="register.php">Register Now</a></p>
+            <p>Don't have an Account? <a href="register.php">Sign Up Now</a></p>
         </form>
     </div>
 </body>
